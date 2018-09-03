@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>project 2</title>
+</head>
+<body>
+<div class="parent">
+	<div class="child 1"><audio src="audio.mp3" autoplay controls="controls" id="audio"></audio>
+		<button onclick="vplay();">play</button>
+		<button onclick="vpause();">pause</button>
+		<div class="child 2"></div>
+	</div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+	var audio =document.querySelector("#audio");
+	function vplay(){
+		audio.play();
+	}
+	function vpause(){
+		audio.pause();
+	}
+</script>
